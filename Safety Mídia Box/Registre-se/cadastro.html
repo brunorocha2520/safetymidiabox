@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessar Safety Mídia Box</title>
+    <link rel="stylesheet" href="assets/css/cadastro.css"> 
+    <link rel="sortcut icon" href="../Login/assets/images/logo.ico" type="image/x-icon" />;
+</head>
+<body>
+    
+    <main>
+        <div class="container">
+            <a href="../Registre-se/cadastro.html"><img src="assets/images/logo.jpg" class="logo"></a>
+            <div class="box">
+                <h2>Fazer Login</h2>
+                
+                <form method="POST" action="../Login/login.html" >
+
+                    <label>
+                        Seu Nome<br>
+                        <input class="campo nome" type="text" name="name" required>
+                    </label>
+
+                    <label>
+                        E-mail<br>
+                        <input class="campo email" type="text" name="email" pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="endereço de email: admin@admin.com.br">
+                    </label>
+                    
+                        
+                    <label>
+                        Senha<br>
+                        <input class="campo senha" type="password" name="senha" minlength="6" maxlength="30" placeholder="Pelo menos 6 caracteres">
+                    </label>
+                        
+                    <label>
+                        Insira a senha nova mais uma vez<br> 
+                        <input class="campo secondsenha" type="password" name="senharepeat" min="6" maxlength="30">
+                    </label>
+
+                    <label>
+                        <a><button>Criar sua conta na Safety Mídia Box</button></a>
+                    </label><br>
+                    
+                    <span>
+                        Ao criar uma conta, você concorda com as <b>Condições de Uso da</b><br> Safety Mídia Box.
+                        Por favor verifique a <b>Notificação de Privacidade</b>,<br> <b>Notificação de Cookies</b> 
+                        e a <b>Notificação de Anúncios Baseados<br> em Interesse</b>. 
+                    </span>
+
+                    <p>você já tem uma conta? fazer <a href="../Login/index.html"><b>Login</b></a></p>
+
+                </form>
+
+            </div>
+            
+            
+        </div>
+    </main>
+    <footer>
+
+        <div class="footer">
+            <div class="footer--itens">
+                <a href="#">Condições de Uso</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Ajuda</a>
+                <a href="#">Cookies</a>
+                <a href="#">Anúncios baseados em interesses</a>
+            </div>
+            <div class="footer--itens">
+                <p>© 2021, safetymidiabox.com, Inc. ou suas afiliadas</p>
+            </div>
+        </div>
+
+    </footer>
+    
+        
+    
+</body>
+</html>
